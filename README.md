@@ -9,7 +9,7 @@ espero que encuentres todo lo que me pidas de trabajo y más
 - Estudio DAW (primer año) 
 - Me interesan mucho los videojuegos, el desarrollo de los mismos y aprender sobre este mundillo en general.
 - Me gustaria aprender de todo en verdad.
-- [ ]se sobre este mundillo 
+- [ ] se sobre este mundillo 
   - [x] se sobre videojuegos
   - [x] se sobre como se desarrollan (puse que si siendo un poco optimista)
         
