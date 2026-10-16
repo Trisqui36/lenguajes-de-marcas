@@ -1,0 +1,18 @@
+<!ELEMENT videojuegos (videojuego+)>
+<!ELEMENT videojuego (titulo, desarrolladora, plataformas+, precio)>
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT desarrolladora (#PCDATA)>
+<!ELEMENT plataformas (plataforma+)>
+<!ELEMENT plataforma (#PCDATA)>
+<!ELEMENT precio (#PCDATA)>
+
+<!ATTLIST videojuegos
+    nombre CDATA #REQUIRED>
+
+<!ATTLIST videojuego
+    id ID #REQUIRED
+    disponible (true | false) 'true'>
+
+<!ATTLIST precio
+    moneda (EUR | DH | GBP) 'EUR'>
+    
