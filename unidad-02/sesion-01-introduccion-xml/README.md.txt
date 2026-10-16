@@ -53,4 +53,5 @@ total no es una pero se puede usar como una
 elemento raiz: videojuego
 elementos:titulo.desarrolladora,genero,precio,moneda
 atributo:precio 14.99
-relacion:videojuego y titulo 
+relacion:videojuego y titulo son etiqueta padre e hija
+elementos hermanos:genero desarrolladora titulo precio

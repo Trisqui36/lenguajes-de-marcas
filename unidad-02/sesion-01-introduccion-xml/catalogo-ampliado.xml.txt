@@ -1,1 +1,115 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
+<catalogo actualizado="2026-09-29">
+  <videojuego id="V001" disponible="true">
+    <titulo>Hollow Knight</titulo>
+    <desarrolladora>Team Cherry</desarrolladora>
+    <plataformas>
+      <plataforma>PC</plataforma>
+      <plataforma>Switch</plataforma>
+    </plataformas>
+    <precio moneda="EUR">14.99</precio>
+  </videojuego>
+
+  <videojuego id="V002" disponible="true">
+    <titulo>Celeste</titulo>
+    <desarrolladora>Extremely OK Games</desarrolladora>
+    <plataformas>
+      <plataforma>PC</plataforma>
+      <plataforma>Switch</plataforma>
+    </plataformas>
+    <precio moneda="EUR">19.99</precio>
+  </videojuego>
+
+  <videojuego id="V003" disponible="true">
+    <titulo>sonic frontiers</titulo>
+    <desarrolladora>Sega</desarrolladora>
+    <plataformas>
+    <plataforma>play<plataforma>
+      <plataforma>PC</plataforma>
+      <plataforma>Switch</plataforma>
+    </plataformas>xbox<plataforma>
+    </plataformas>
+    <precio moneda="EUR">49.99</precio>
+  </videojuego>
+
+  <videojuego id="V004" disponible="true">
+    <titulo>spiderman 2</titulo>
+    <desarrolladora>insomnia</desarrolladora>
+    <plataformas>
+      <plataforma>play 5</plataforma>
+      <plataforma>PC</plataforma>
+    </plataformas>
+    <precio moneda="EUR">39.99</precio>
+  </videojuego>
+
+  <videojuego id="V005" disponible="true">
+    <titulo>mewgenics</titulo>
+    <desarrolladora>Edmun MCmiler</desarrolladora>
+    <plataformas>
+      <plataforma>PC</plataforma>
+      <plataforma>Switch</plataforma>
+      <plataforma> play 5</plataforma>
+      <plataforma> xbox </plataforma>
+    </plataformas>
+    <precio moneda="EUR">29.99</precio>
+  </videojuego>
+
+  <videojuego id="V006" disponible="true">
+    <titulo>isaac</titulo>
+    <desarrolladora>Edmun MCmiler</desarrolladora>
+    <plataformas>
+      <plataforma>PC</plataforma>
+      <plataforma>Switch</plataforma>
+      <plataforma> play 5</plataforma>
+      <plataforma> xbox </plataforma>
+      <plataforma> 3DS</plataforma>
+      <plataforma> movil </plataforma>
+    </plataformas>
+    <precio moneda="EUR">69.99</precio>
+
+  </videojuego><videojuego id="V007" disponible="true">
+    <titulo>read dead redemption 2</titulo>
+    <desarrolladora>rockstar</desarrolladora>
+    <plataformas>
+      <plataforma>PC</plataforma>
+     <plataforma> play 5</plataforma>
+      <plataforma> xbox </plataforma>
+    </plataformas>
+    <precio moneda="EUR">69.99</precio>
+  </videojuego>
+
+  <videojuego id="V008" disponible="true">
+    <titulo>persona 5</titulo>
+    <desarrolladora>Atlus</desarrolladora>
+    <plataformas>
+      <plataforma>PC</plataforma>
+      <plataforma>Switch</plataforma>
+      <plataforma> play 5</plataforma>
+      <plataforma> xbox </plataforma>
+    </plataformas>
+    <precio moneda="EUR">59.99</precio>
+  </videojuego>
+
+  <videojuego id="V009" disponible="true">
+    <titulo>dragon ball fighters z</titulo>
+    <desarrolladora>cyberconect</desarrolladora>
+    <plataformas>
+      <plataforma>PC</plataforma>
+      <plataforma>Switch</plataforma>
+      <plataforma> play 5</plataforma>
+      <plataforma> xbox </plataforma>
+    </plataformas>
+    <precio moneda="EUR">29.99</precio>
+  </videojuego>
+
+  <videojuego id="V010" disponible="true">
+    <titulo>zelda tears of the kingdom</titulo>
+    <desarrolladora>Nintendo</desarrolladora>
+    <plataformas>
+      <plataforma>PC(aguante la emulacion)</plataforma>
+      <plataforma>Switch</plataforma>
+    </plataformas>
+    <precio moneda="EUR">69.99</precio>
+  </videojuego>
+</catalogo>
