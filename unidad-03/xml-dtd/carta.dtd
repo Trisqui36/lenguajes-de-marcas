@@ -56,4 +56,10 @@
     id ID #REQUIRED
     plato IDREF #IMPLIED
     estado (pendeinte| confirmado| cancelado) 'pendiente'>
+
+    <!--xsd tiene xs:string, xs:date, y xs:decimal-->
+    <!--minoccurs y maxoccurs-->
+    <!--enumaraciones,minimos,maximos,patrones.-->
+    <!--muchos tipos para elementos y atributos -->
+        
      
