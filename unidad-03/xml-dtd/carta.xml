@@ -1,18 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
 <!DOCTYPE carta SYSTEM "carta.dtd">
+
 <carta nombre='El platano canario'>
-    <informacion>
-        <nombre>El platano canario</nombre>
+    <informacion> 
+        <nombre>&nombreLocal;</nombre>
         <ubicacion>Icod de los Vinos, Tenerife</ubicacion>
     </informacion>
     <seccion tipo='entrantes'>
         <titulo>Para compartir</titulo>
-        <plato id='P01' vegano='FALSE'>
+        <plato id='P01' alergenos='gluten' vegano='FALSE'>
             <nombre>Queso asado</nombre>
             <descripcion>Queso canario con mojo rojo y verde</descripcion>
             <precio moneda='EUR'>8.00</precio>
+            <recomendacion plato='P01' />
         </plato>
-        <plato id='P02' vegano='TRUE'>
+        <plato id='P02' alergenos='gluten' vegano='TRUE'>
             <nombre>Papas arrugadas</nombre>
             <descripcion>Papas con mojo</descripcion>
             <precio moneda='EUR'>4.00</precio>
@@ -32,4 +35,18 @@
             <precio moneda='EUR'>8.00</precio>
         </plato>
     </seccion>
+    <reservas> 
+        <reserva id='R1' estado="pendeinte">
+            <client> Maria </client>
+            <fecha> 25/10/2026 </fecha>
+            <personas> 2 </personas>
+        </reserva>   
+        <reserva id='R2' estado="confirmado" plato="P01">
+            <client> Gerald </client>
+            <fecha> 04/06/2007 </fecha>
+            <personas> 2 </personas>
+        </reserva>   
+    </reservas>
+
+
 </carta>
