@@ -16,7 +16,7 @@
                     <xs:complexType>
                         <xs:sequence>
                             <xs:element name="titulo" type="xs:string"/>
-                            <xs:element name="plato">
+                            <xs:element name="plato" minOccurs="1" maxOccurs="unbounded">
                                 <xs:complexType>
                                     <xs:sequence>
                                         <xs:element name="nombre" type="xs:string"/>
@@ -37,8 +37,10 @@
                                         </xs:element>
                                     </xs:sequence>
                                     <xs:attribute name="id" type="xs:ID" use="required"/>
-                                    <xs:attribute name="alegrenos" type="xs:string"/>
+                                    <xs:attribute name="alergenos" type="xs:string"/>
                                     <xs:attribute name="vegano" type="xs:boolean" use="optional" default="false"/>
+                                    <xs:attribute name='frio' type='xs:boolean' default='false'/>
+                                    <xs:attribute name="recomendado" type="xs:boolean" default="false"/>
                                 </xs:complexType>
                             </xs:element>
                         </xs:sequence>
@@ -54,10 +56,13 @@
                         </xs:attribute>
                     </xs:complexType>
                 </xs:element>
-                <xs:element name="reservas" minOccurs="0" maxOccurs="unbounded">
+                <xs:element name='reservas'>
                     <xs:complexType>
                         <xs:sequence>
-                            <xs:element name="cliente" type="xs:string"/>
+                              <xs:element name="reserva" minOccurs="0" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="client" type="xs:string"/>
                             <xs:element name="fecha" type="xs:date"/>
                             <xs:element name="personas">
                                 <xs:simpleType>
@@ -72,7 +77,7 @@
                         <xs:attribute name="estado" default="pendiente">
                             <xs:simpleType>
                                 <xs:restriction base="xs:string">
-                                    <xs:enumeration value="confirmada"/>
+                                    <xs:enumeration value="confirmado"/>
                                     <xs:enumeration value="cancelada"/>
                                     <xs:enumeration value="pendiente"/>
                                 </xs:restriction>
@@ -80,9 +85,11 @@
                         </xs:attribute>
                     </xs:complexType>
                 </xs:element>
+                        </xs:sequence> 
+                    </xs:complexType>   
+                </xs:element> 
             </xs:sequence>
             <xs:attribute name="nombre" type="xs:string" use="required"/>
-            <xs:attribute name="recomendado" type="xs:boolean" default="false"/>
         </xs:complexType>
     </xs:element>
 </xs:schema>
