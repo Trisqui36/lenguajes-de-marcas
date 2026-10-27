@@ -39,7 +39,7 @@ nombre='El platano canario'>
     <reservas> 
         <reserva id='R1' estado="pendiente">
             <client> Maria </client>
-            <fecha>2026-10-25 </fecha>
+            <fecha>2026-10-25</fecha>
             <personas> 2 </personas>
         </reserva>   
         <reserva id='R2' estado="confirmado" plato="P01">
