@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+ <cine 
+    xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+    xsi:noNamespaceSchemaLocation='cine.xsd'
+    id='C01'
+    nombre='Cinepolis'>
+
+    
+ <!--<!DOCTYPE cine SYSTEM "cine.dtd">-->
+
+<!--<cine id='C01' nombre='Cinepolis'>  -->
+    <informacion>
+         <nombre>Cinepolis</nombre>
+        <!-- <nombre>&nombreCine;</nombre> -->
+        <direccion>Alcampo las chumberas</direccion>
+        <localidad>La Laguna, Santa Cruz de Tenerife</localidad>
+        <telefono>777 04 25 11</telefono>
+    </informacion>
+    <cartelera>
+        <pelicula id='P01' clasificacion='16' idioma='ES' disponible='true'>
+            <titulo>Kingsman: The Secret Service</titulo>
+            <director>Matthew Vaughn</director>
+            <genero>Accion, comedia </genero>
+            <min_duracion>129</min_duracion>
+            <fecha_estreno>2015-01-15</fecha_estreno>
+            <sinopsis>
+                "Un veterano agente secreto inglés (Colin Firth) debe entrenar a un joven sin refinar (Taron Egerton), 
+                pero que promete convertirse en un competitivo agente gracias a un ultra-programa de entrenamiento, 
+                al mismo tiempo que una amenaza global emerge procedente de un genio retorcido. Adaptación del cómic de Mark Millar y Dave Gibbons.
+            </sinopsis>
+        </pelicula>
+        <pelicula id='P02' clasificacion='TP' idioma='ES' disponible='false'>
+            <titulo>Sonic 3</titulo>
+            <director>Jeff Fowler</director>
+            <genero> Comedia, Aventura</genero>
+            <min_duracion>110</min_duracion>
+            <fecha_estreno>2024-12-25</fecha_estreno>
+            <sinopsis>Sonic, Knuckles y Tails vuelven en su aventura más gloriosa hasta la fecha.
+                 El equipo se reúne para enfrentarse a un nuevo y formidable enemigo, Shadow, un misterioso erizo con poderes nunca vistos.
+                 El equipo Sonic debe conseguir una alianza inesperada si quiere detener a Shadow y salvar el planeta.</sinopsis>
+        </pelicula>
+        <pelicula id='P03' clasificacion='18' idioma='ES' disponible='true'>
+            <titulo>Army of the Dead</titulo>
+            <director>Zack Snyder</director>
+            <genero>Acción, Zombis, Terror, Cine de atracos, Ciencia ficción, Thriller, Drama, Comedia</genero>
+            <min_duracion>143</min_duracion>
+            <fecha_estreno>2021-05-21</fecha_estreno>
+            <sinopsis> Se ha declarado una epidemia zombi en Las Vegas.
+                 Un grupo de mercenarios decide adentrarse en la zona de cuarentena
+                para perpetrar el mayor golpe de la historia.</sinopsis>
+        </pelicula>
+        <pelicula id='P04' clasificacion='16' idioma='VOSE' disponible='true'>
+            <titulo>#Alive</titulo>
+            <director>Il Cho</director>
+            <genero>zombis, Cine de terror, Drama, Género de acción, Suspense, Cine de supervivencia, Cine de aventuras</genero>
+            <min_duracion>99</min_duracion>
+            <fecha_estreno>2020-06-24</fecha_estreno>
+            <sinopsis>Un joven gamer llamado Oh Joon-woo queda encerrado y totalmente aislado en su apartamento en Seúl
+                 cuando se desata un repentino y violento apocalipsis zombi en la ciudad.
+                  Conforme se le agotan los suministros y se queda sin internet ni teléfono,
+                descubre que una chica llamada Kim Yoo-bin sobrevive en el edificio de enfrente e intentan ayudarse mutuamente para escapar.</sinopsis>
+        </pelicula>
+        <pelicula id='P05' clasificacion='16' idioma='VOSE' disponible='false'>
+            <titulo> Maleficio (Incantation) (2022)</titulo>
+            <director>Taika Waititi</director>
+            <genero>Terror sobrenatural,Found footage, Terror psicológico y folclórico</genero>
+            <min_duracion>111</min_duracion> 
+            <fecha_estreno>2022-03-18</fecha_estreno>
+        </pelicula>
+    </cartelera>
+    <salas>
+        <sala id='S01'>
+            <num_sala>1</num_sala>
+            <capacidad>250</capacidad>
+            <butacas>
+                <butaca id='B01' tipo='premium'>
+                    <fila>A</fila>
+                    <num_asiento>20</num_asiento>
+                </butaca>
+                <butaca id='B02' tipo='premium'>
+                    <fila>R</fila>
+                    <num_asiento>21</num_asiento>
+                </butaca>
+                <butaca id='B05' tipo='normal'>
+                    <fila>K</fila>
+                    <num_asiento>22</num_asiento>
+                </butaca>
+                <butaca id='B07' tipo='adaptada'>
+                    <fila>S</fila>
+                    <num_asiento>23</num_asiento>
+                </butaca>
+            </butacas>
+        </sala>
+        <sala id='S02'>
+            <num_sala>2</num_sala>
+            <capacidad>200</capacidad>
+            <butacas>
+                <butaca id='B03' tipo='normal'>
+                    <fila>K</fila>
+                    <num_asiento>2</num_asiento>
+                </butaca>
+                <butaca id='B06' tipo='normal'>
+                    <fila>F</fila>
+                    <num_asiento>3</num_asiento>
+                </butaca>
+                <butaca id='B04' tipo='normal'>
+                    <fila>K</fila>
+                    <num_asiento>4</num_asiento>
+                </butaca>
+                <butaca id='B08' tipo='premium'>
+                    <fila>N</fila>
+                    <num_asiento>5</num_asiento>
+                </butaca>
+            </butacas>
+        </sala>
+    </salas>
+    <sesiones>
+        <sesion id='Se01' pelicula='P01' sala='S01'>
+            <fecha_proyeccion>2015-04-24</fecha_proyeccion>
+            <hora_inicio>05:17:00</hora_inicio>
+            <precio_entrada moneda='EUR'>5.55</precio_entrada>
+        </sesion>
+        <sesion id='Se02' pelicula='P02' sala='S01'>
+            <fecha_proyeccion>2024-12-04</fecha_proyeccion>
+            <hora_inicio>12:10:00</hora_inicio>
+            <precio_entrada moneda='EUR'>9.01</precio_entrada>
+        </sesion>
+        <sesion id='Se03' pelicula='P03' sala='S01'>
+            <fecha_proyeccion>2022-01-25</fecha_proyeccion>
+            <hora_inicio>16:15:00</hora_inicio>
+            <precio_entrada moneda='EUR'>7.50</precio_entrada>
+        </sesion>
+        <sesion id='Se04' pelicula='P04' sala='S01'>
+            <fecha_proyeccion>2026-12-14</fecha_proyeccion>
+            <hora_inicio>12:45:00</hora_inicio>
+            <precio_entrada moneda='EUR'>4.99</precio_entrada>
+        </sesion>
+    </sesiones>
+    <reservas>
+        <reserva id='R01' sesion='Se03' estado='confirmada'>
+            <nombre>Sergio</nombre>
+            <email>Sonic.fan@gmail.com</email>
+            <fecha_reserva>2015-04-24</fecha_reserva>
+            <entradas>
+                <entrada butaca='B01' tipo='general'/>
+                <entrada butaca='B02' tipo='general'/>
+            </entradas>
+        </reserva>
+        <reserva id='R02' sesion='Se01' estado='pendiente'>
+            <nombre>David.M</nombre>
+            <email>cromado16@gmail.com</email>
+            <fecha_reserva>2024-12-04</fecha_reserva>
+            <entradas>
+                <entrada butaca='B03' tipo='reducida'/>
+                <entrada butaca='B04' tipo='general'/>
+            </entradas>
+        </reserva>
+        <reserva id='R03' sesion='Se02' estado='cancelada'>
+            <nombre>Lucy</nombre>
+            <email>moongirl@hotmail.com</email>
+            <fecha_reserva>2022-01-25</fecha_reserva>
+            <entradas>
+                <entrada butaca='B05' tipo='general'/>
+                <entrada butaca='B08' tipo='infantil'/>
+            </entradas>
+        </reserva>
+    </reservas>
+</cine>

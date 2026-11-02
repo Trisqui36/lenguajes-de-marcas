@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xs:schema xmlns:xs='http://www.w3.org/2001/XMLSchema'>
+    <xs:element name='cine'>
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name='informacion'>
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name='nombre' type='xs:string'/>
+                            <xs:element name='direccion' type='xs:string'/>
+                            <xs:element name='localidad' type='xs:string'/>
+                            <xs:element name='telefono' type='xs:string'>   
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name='cartelera'>
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name='pelicula' minOccurs='1' maxOccurs='unbounded'>
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name='titulo' type='xs:string'/>
+                                        <xs:element name='director' type='xs:string'/>
+                                        <xs:element name='genero' type='xs:string'/>
+                                        <xs:element name='min_duracion'>
+                                            <xs:simpleType>
+                                                <xs:restriction base='xs:positiveInteger'>
+                                                    <xs:minInclusive value='30'/>
+                                                    <xs:maxInclusive value='240'/>
+                                                </xs:restriction>
+                                            </xs:simpleType>
+                                        </xs:element>
+                                        <xs:element name='fecha_estreno' type='xs:date'/>
+                                        <xs:element name='sinopsis' type='xs:string' minOccurs='0'/>
+                                    </xs:sequence>
+                                    <xs:attribute name='id' type='xs:ID' use='required'/>
+                                    <xs:attribute name='clasificacion' default='18'>
+                                        <xs:simpleType>
+                                            <xs:restriction base='xs:string'>
+                                                <xs:enumeration value='TP'/>
+                                                <xs:enumeration value='7'/>
+                                                <xs:enumeration value='12'/>
+                                                <xs:enumeration value='16'/>
+                                                <xs:enumeration value='18'/>
+                                            </xs:restriction>
+                                        </xs:simpleType>
+                                    </xs:attribute>
+                                    <xs:attribute name='idioma' default='ES'>
+                                        <xs:simpleType>
+                                            <xs:restriction base='xs:string'>
+                                                <xs:enumeration value='ES'/>
+                                                <xs:enumeration value='VO'/>
+                                                <xs:enumeration value='VOSE'/>
+                                            </xs:restriction>
+                                        </xs:simpleType>
+                                    </xs:attribute>
+                                    <xs:attribute name='disponible' type='xs:boolean' default='true'/>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name='salas'>
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name='sala' minOccurs='1' maxOccurs='unbounded'>
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name='num_sala' type='xs:string'/>
+                                        <xs:element name='capacidad'>
+                                            <xs:simpleType>
+                                                <xs:restriction base='xs:positiveInteger'>
+                                                    <xs:maxInclusive value='300'/>
+                                                </xs:restriction>
+                                            </xs:simpleType>
+                                        </xs:element>
+                                        <xs:element name='butacas'>
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name='butaca' minOccurs='1' maxOccurs='unbounded'>
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <xs:element name='fila' type='xs:string'/>
+                                                                <xs:element name='num_asiento' type='xs:positiveInteger'/>
+                                                            </xs:sequence>
+                                                            <xs:attribute name='id' type='xs:ID' use='required'/>
+                                                            <xs:attribute name='tipo' default='normal'>
+                                                                <xs:simpleType>
+                                                                    <xs:restriction base='xs:string'>
+                                                                        <xs:enumeration value='normal'/>
+                                                                        <xs:enumeration value='premium'/>
+                                                                        <xs:enumeration value='adaptada'/>
+                                                                    </xs:restriction>
+                                                                </xs:simpleType>
+                                                            </xs:attribute>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                    <xs:attribute name='id' type='xs:ID' use='required'/>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name='sesiones'>
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name='sesion' minOccurs='1' maxOccurs='unbounded'>
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name='fecha_proyeccion' type='xs:date'/>
+                                        <xs:element name='hora_inicio' type='xs:time'/>
+                                        <xs:element name='precio_entrada'>
+                                            <xs:complexType>
+                                                <xs:simpleContent>
+                                                    <xs:extension base='xs:decimal'>
+                                                        <xs:attribute name='moneda' type='xs:string' fixed='EUR'/>
+                                                    </xs:extension>
+                                                </xs:simpleContent>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                    <xs:attribute name='id' type='xs:ID' use='required'/>
+                                    <xs:attribute name='pelicula' type='xs:IDREF' use='required'/>
+                                    <xs:attribute name='sala' type='xs:IDREF' use='required'/>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name='reservas'>
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name='reserva' minOccurs='1' maxOccurs='unbounded'>
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name='nombre' type='xs:string'/>
+                                        <xs:element name='email' type='xs:string'/>
+                                        <xs:element name='fecha_reserva' type='xs:date'/>
+                                        <xs:element name='entradas'>
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name='entrada' minOccurs='1' maxOccurs='unbounded'>
+                                                        <xs:complexType>
+                                                            <xs:attribute name='butaca' type='xs:IDREF' use='required'/>
+                                                            <xs:attribute name='tipo' default='general'>
+                                                                <xs:simpleType>
+                                                                    <xs:restriction base='xs:string'>
+                                                                        <xs:enumeration value='general'/>
+                                                                        <xs:enumeration value='infantil'/>
+                                                                        <xs:enumeration value='reducida'/>
+                                                                    </xs:restriction>
+                                                                </xs:simpleType>
+                                                            </xs:attribute>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                    <xs:attribute name='id' type='xs:ID' use='required'/>
+                                    <xs:attribute name='sesion' type='xs:IDREF' use='required'/>
+                                    <xs:attribute name='estado' default='pendiente'>
+                                        <xs:simpleType>
+                                            <xs:restriction base='xs:string'>
+                                                <xs:enumeration value='pendiente'/>
+                                                <xs:enumeration value='confirmada'/>
+                                                <xs:enumeration value='cancelada'/>
+                                             </xs:restriction>
+                                        </xs:simpleType>
+                                    </xs:attribute>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+            <xs:attribute name='id' type='xs:ID' use='required'/>
+            <xs:attribute name='nombre' type='xs:string' use='required'/>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>        
