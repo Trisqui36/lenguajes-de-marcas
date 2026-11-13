@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<biblioteca actualizado='true'>
+    <libro id="L001" disponible="true">
+        <titulo>Dragon ball 21 </titulo>
+        <autor>
+            <nombre>Akira Toriyama</nombre>
+            <nacionalidad>Japones</nacionalidad>
+        </autor>
+        <anio_publicacion>1984</anio_publicacion>
+        <generos>
+            <genero>Shonen</genero>
+            <genero>Aventuras</genero>
+            <genero>Comedia</genero>
+        </generos>
+        <editorial>Shūeisha</editorial>
+        <formatos>
+            <formato>Tapa blanda</formato>
+            <formato>Tapa dura</formato>
+        </formatos>
+        <precio moneda="EUR">11.99</precio>
+        <valoracion>10/10</valoracion>
+        <saga>Dragon ball</saga>
+    </libro>
+     <libro id="L002" disponible="true">
+        <titulo>....</titulo>
+        <autor>
+            <nombre>......</nombre>
+            <nacionalidad>....</nacionalidad>
+        </autor>
+        <anio_publicacion>....</anio_publicacion>
+        <generos>
+            <genero>......</genero>
+            <genero>.....</genero>
+        </generos>
+        <editorial>......</editorial>
+        <formatos>
+            <formato>.......</formato>
+            <formato>.......</formato>
+        </formatos>
+        <precio moneda="EUR">.....</precio>
+        <valoracion>....</valoracion>
+        <saga>.....</saga>
+    </libro>
+     <libro id="L003" disponible="true">
+        <titulo>....</titulo>
+        <autor>
+            <nombre>......</nombre>
+            <nacionalidad>....</nacionalidad>
+        </autor>
+        <anio_publicacion>....</anio_publicacion>
+        <generos>
+            <genero>......</genero>
+            <genero>.....</genero>
+        </generos>
+        <editorial>......</editorial>
+        <formatos>
+            <formato>.......</formato>
+            <formato>.......</formato>
+        </formatos>
+        <precio moneda="EUR">.....</precio>
+        <valoracion>....</valoracion>
+        <saga>.....</saga>
+    </libro>
+     <libro id="L004" disponible="true">
+        <titulo>....</titulo>
+        <autor>
+            <nombre>......</nombre>
+            <nacionalidad>....</nacionalidad>
+        </autor>
+        <anio_publicacion>....</anio_publicacion>
+        <generos>
+            <genero>......</genero>
+            <genero>.....</genero>
+        </generos>
+        <editorial>......</editorial>
+        <formatos>
+            <formato>.......</formato>
+            <formato>.......</formato>
+        </formatos>
+        <precio moneda="EUR">.....</precio>
+        <valoracion>....</valoracion>
+        <saga>.....</saga>
+    </libro>
+     <libro id="L005" disponible="true">
+        <titulo>....</titulo>
+        <autor>
+            <nombre>......</nombre>
+            <nacionalidad>....</nacionalidad>
+        </autor>
+        <anio_publicacion>....</anio_publicacion>
+        <generos>
+            <genero>......</genero>
+            <genero>.....</genero>
+        </generos>
+        <editorial>......</editorial>
+        <formatos>
+            <formato>.......</formato>
+            <formato>.......</formato>
+        </formatos>
+        <precio moneda="EUR">.....</precio>
+        <valoracion>....</valoracion>
+        <saga>.....</saga>
+    </libro>
+     <libro id="L006" disponible="true">
+        <titulo>....</titulo>
+        <autor>
+            <nombre>......</nombre>
+            <nacionalidad>....</nacionalidad>
+        </autor>
+        <anio_publicacion>....</anio_publicacion>
+        <generos>
+            <genero>......</genero>
+            <genero>.....</genero>
+        </generos>
+        <editorial>......</editorial>
+        <formatos>
+            <formato>.......</formato>
+            <formato>.......</formato>
+        </formatos>
+        <precio moneda="EUR">.....</precio>
+        <valoracion>....</valoracion>
+        <saga>.....</saga>
+    </libro>
+     <libro id="L007" disponible="false">
+        <titulo>....</titulo>
+        <autor>
+            <nombre>......</nombre>
+            <nacionalidad>....</nacionalidad>
+        </autor>
+        <anio_publicacion>....</anio_publicacion>
+        <generos>
+            <genero>......</genero>
+            <genero>.....</genero>
+        </generos>
+        <editorial>......</editorial>
+        <formatos>
+            <formato>.......</formato>
+            <formato>.......</formato>
+        </formatos>
+        <precio moneda="EUR">.....</precio>
+        <valoracion>....</valoracion>
+        <saga>.....</saga>
+    </libro>
+     <libro id="L008" disponible="true">
+        <titulo>....</titulo>
+        <autor>
+            <nombre>......</nombre>
+            <nacionalidad>....</nacionalidad>
+        </autor>
+        <anio_publicacion>....</anio_publicacion>
+        <generos>
+            <genero>......</genero>
+            <genero>.....</genero>
+        </generos>
+        <editorial>......</editorial>
+        <formatos>
+            <formato>.......</formato>
+            <formato>.......</formato>
+        </formatos>
+        <precio moneda="EUR">.....</precio>
+        <valoracion>....</valoracion>
+        <saga>.....</saga>
+    </libro>
+     <libro id="L009" disponible="false">
+        <titulo>....</titulo>
+        <autor>
+            <nombre>......</nombre>
+            <nacionalidad>....</nacionalidad>
+        </autor>
+        <anio_publicacion>....</anio_publicacion>
+        <generos>
+            <genero>......</genero>
+            <genero>.....</genero>
+        </generos>
+        <editorial>......</editorial>
+        <formatos>
+            <formato>.......</formato>
+            <formato>.......</formato>
+        </formatos>
+        <precio moneda="EUR">.....</precio>
+        <valoracion>....</valoracion>
+        <saga>.....</saga>
+    </libro>
+     <libro id="L010" disponible="true">
+        <titulo>....</titulo>
+        <autor>
+            <nombre>......</nombre>
+            <nacionalidad>....</nacionalidad>
+        </autor>
+        <anio_publicacion>....</anio_publicacion>
+        <generos>
+            <genero>......</genero>
+            <genero>.....</genero>
+        </generos>
+        <editorial>......</editorial>
+        <formatos>
+            <formato>.......</formato>
+            <formato>.......</formato>
+        </formatos>
+        <precio moneda="EUR">.....</precio>
+        <valoracion>....</valoracion>
+        <saga>.....</saga>
+    </libro>
+</biblioteca>
+    
