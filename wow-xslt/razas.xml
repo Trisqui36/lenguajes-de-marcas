@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <guia>
+        <faccion nombre="Alianza" emblema="img/alianza.jpeg">
+            <raza id="alianza humano">
+                <nombre> humano </nombre>
+                <asentamiento> Ventormenta</asentamiento>
+                <profesion> Herrería </profesion>
+                <imagen> img/Jaina-humana.jpeg</imagen>
+            </raza>
+            <raza id ="Alianza gnomo">
+                <nombre> gnomo </nombre>
+                <asentamiento> Dun Morogh </asentamiento>
+                <profesion> Ingenieria  </profesion>
+                <imagen> img/gnomo.jpeg</imagen>
+            </raza>
+            </faccion>
+            <faccion nombre="Horda" emblema="img/horda.jpeg">
+            <raza id="alianza orco">
+                <nombre> Orco </nombre>
+                <asentamiento> Orgrimar</asentamiento>
+                <profesion> Alquimia </profesion>
+                <imagen> img/samuro(orco).jpeg</imagen>
+            </raza>
+            <raza id ="Alianza no muerto">
+                <nombre> No Muerto </nombre>
+                <asentamiento> Entrañas </asentamiento>
+                <profesion> Alquimia </profesion>
+                <imagen> img/Arthasdeathknight2.JPG</imagen>
+            </raza>
+        </faccion>
+    </guia> 
