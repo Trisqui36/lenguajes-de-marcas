@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="catalogo.xsl"?>
+<catalogo plataforma="Disney Plus" pais="España">
+
+    <!-- CATEGORIA 1: FAMILIA Y FANTASIA -->
+
+    <categoria nombre="Familia y fantasía">
+
+        <pelicula id="P001">
+            <titulo>Solo en casa</titulo>
+            <anio>1990</anio>
+            <duracion>103</duracion>
+            <sinopsis>Kevin, niño de ocho años, se queda solo en casa en Navidad y debe protegerla de dos ladrones.</sinopsis>
+            <reparto>
+                <actor>Macaulay Culkin</actor>
+                <actor>Joe Pesci</actor>
+            </reparto>
+            <imagen>https://image.tmdb.org/t/p/w500/9wSbe4CwObACCQvaUVhWQyLR5Vz.jpg</imagen>
+        </pelicula>
+
+        <pelicula id="P002">
+            <titulo>Solo en casa 2: Perdido en Nueva York</titulo>
+            <anio>1992</anio>
+            <duracion>120</duracion>
+            <sinopsis>Kevin se separa de su familia en Navidad, otra vez, y termina en Nueva York, donde vuelve a encontrarse con los dos ladrones de la primera película.</sinopsis>
+            <reparto>
+                <actor>Macaulay Culkin</actor>
+                <actor>Joe Pesci</actor>
+            </reparto>
+            <imagen>https://image.tmdb.org/t/p/w500/uuitWHpJwxD1wruFl2nZHIb4UGN.jpg</imagen>
+        </pelicula>
+
+        <pelicula id="P003">
+            <titulo>La bella y la bestia</titulo>
+            <anio>2017</anio>
+            <duracion>129</duracion>
+            <sinopsis>Bella acaba viviendo en un castillo encantado donde conoce a una bestia que esconde una historia sorprendente.</sinopsis>
+            <reparto>
+                <actor>Emma Watson</actor>
+                <actor>Dan Stevens</actor>
+            </reparto>
+            <imagen>https://image.tmdb.org/t/p/w500/hKegSKIDep2ewJWPUQD7u0KqFIp.jpg</imagen>
+        </pelicula>
+
+    </categoria>
+
+
+    <!-- CATEGORIA 2: ANIMACION -->
+
+    <categoria nombre="Animación">
+
+        <pelicula id="P004">
+            <titulo>Vaiana</titulo>
+            <anio>2016</anio>
+            <duracion>107</duracion>
+            <sinopsis>Una joven aventurera se embarca en un viaje por el océano para salvar a su pueblo con ayuda del semidiós Maui.</sinopsis>
+            <reparto>
+                <actor>Auli'i Cravalho</actor>
+                <actor>Dwayne Johnson</actor>
+            </reparto>
+            <imagen>https://image.tmdb.org/t/p/w500/4JeejGugONWpJkbnvL12hVoYEDa.jpg</imagen>
+        </pelicula>
+
+        <pelicula id="P005">
+            <titulo>Coco</titulo>
+            <anio>2017</anio>
+            <duracion>105</duracion>
+            <sinopsis>Miguel sueña con ser músico y acaba viajando al mundo de los muertos, donde descubre importantes secretos familiares.</sinopsis>
+            <reparto>
+                <actor>Anthony Gonzalez</actor>
+                <actor>Gael García Bernal</actor>
+            </reparto>
+            <imagen>https://image.tmdb.org/t/p/w500/gGEsBPAijhVUFoiNpgCXxIVx6.png</imagen>
+        </pelicula>
+
+        <pelicula id="P006">
+            <titulo>Pesadilla antes de Navidad</titulo>
+            <anio>1993</anio>
+            <duracion>76</duracion>
+            <sinopsis>Jack Skellington descubre la Navidad y decide organizar su propia versión de esta celebración en el mundo de Halloween.</sinopsis>
+            <reparto>
+                <actor>Chris Sarandon</actor>
+                <actor>Catherine O'Hara</actor>
+            </reparto>
+            <imagen>https://image.tmdb.org/t/p/w500/oQffRNjK8e19rF7xVYEN8ew0j7b.jpg</imagen>
+        </pelicula>
+
+    </categoria>
+
+
+    <!-- CATEGORIA 3: ANIME -->
+
+    <categoria nombre="Anime">
+
+        <pelicula id="P007">
+            <titulo>Dragon Ball Super: Super Hero</titulo>
+            <anio>2022</anio>
+            <duracion>99</duracion>
+            <sinopsis>Gohan y Piccolo deben enfrentarse a dos nuevos androides creados por el Ejército Red Ribbon para proteger la Tierra.</sinopsis>
+            <reparto>
+                <actor>Masako Nozawa</actor>
+                <actor>Toshio Furukawa</actor>
+            </reparto>
+            <imagen>https://image.tmdb.org/t/p/w500/rugyJdeoJm7cSJL1q4jBpTNbxyU.jpg</imagen>
+        </pelicula>
+
+        <pelicula id="P008">
+            <titulo>Jujutsu Kaisen 0</titulo>
+            <anio>2021</anio>
+            <duracion>105</duracion>
+            <sinopsis>Yuta Okkotsu intenta controlar una poderosa maldición que le acompaña desde pequeño mientras aprende a convertirse en hechicero.</sinopsis>
+            <reparto>
+                <actor>Megumi Ogata</actor>
+                <actor>Kana Hanazawa</actor>
+            </reparto>
+            <imagen>https://image.tmdb.org/t/p/w500/3pTwMUEavTzVOh6yLN0aEwR7uSy.jpg</imagen>
+        </pelicula>
+
+        <pelicula id="P009">
+            <titulo>Guardianes de la noche: Kimetsu no Yaiba - La fortaleza infinita</titulo>
+            <anio>2025</anio>
+            <duracion>155</duracion>
+            <sinopsis>Tanjiro y los pilares del Cuerpo de Exterminio de Demonios entran en la Fortaleza Infinita para enfrentarse a poderosos demonios.</sinopsis>
+            <reparto>
+                <actor>Natsuki Hanae</actor>
+                <actor>Akari Kito</actor>
+            </reparto>
+            <imagen>https://image.tmdb.org/t/p/w500/aFRDH3P7TX61FVGpaLhKr6QiOC1.jpg</imagen>
+        </pelicula>
+
+    </categoria>
+
+
+    <!-- CATEGORIA 4: CIENCIA FICCION Y AVENTURAS -->
+
+    <categoria nombre="Ciencia ficción y aventuras">
+
+        <pelicula id="P010">
+            <titulo>Avatar</titulo>
+            <anio>2009</anio>
+            <duracion>162</duracion>
+            <sinopsis>Jake Sully llega al planeta Pandora y conoce a los Na'vi, un pueblo que lucha por proteger su hogar frente a la explotación humana.</sinopsis>
+            <reparto>
+                <actor>Sam Worthington</actor>
+                <actor>Zoe Saldana</actor>
+            </reparto>
+            <imagen>https://image.tmdb.org/t/p/w500/kyeqWdyUXW608qlYkRqosgbbJyK.jpg</imagen>
+        </pelicula>
+
+        <pelicula id="P011">
+            <titulo>Avatar: El sentido del agua</titulo>
+            <anio>2022</anio>
+            <duracion>192</duracion>
+            <sinopsis>Jake y Neytiri deben proteger a su familia y buscar refugio entre un clan Na'vi que vive junto al océano.</sinopsis>
+            <reparto>
+                <actor>Sam Worthington</actor>
+                <actor>Zoe Saldana</actor>
+            </reparto>
+            <imagen>https://image.tmdb.org/t/p/w500/t6HIqrRAclMCA60NsSmeqe9RmNV.jpg</imagen>
+        </pelicula>
+
+        <pelicula id="P012">
+            <titulo>Doctor Strange</titulo>
+            <anio>2016</anio>
+            <duracion>115</duracion>
+            <sinopsis>Un prestigioso cirujano descubre el mundo de las artes místicas después de sufrir un accidente que cambia su vida.</sinopsis>
+            <reparto>
+                <actor>Benedict Cumberbatch</actor>
+                <actor>Chiwetel Ejiofor</actor>
+            </reparto>
+            <imagen>https://image.tmdb.org/t/p/w500/uGBVj3bEbCoZbDjjl9wTxcygko1.jpg</imagen>
+        </pelicula>
+
+    </categoria>
+
+</catalogo>
