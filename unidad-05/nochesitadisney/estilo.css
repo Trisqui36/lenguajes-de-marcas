@@ -1,0 +1,198 @@
+
+/* NOCHECITA DE DISNEY+ */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 25px;
+    background: linear-gradient(135deg, #080510, #1b0d29, #080510);
+    color: #f5efff;
+    font-family: Georgia, 'Times New Roman', serif;
+}
+
+/* CABECERA */
+
+header {
+    text-align: center;
+    padding: 35px 10px;
+    margin-bottom: 40px;
+    border-bottom: 2px solid #8c45bd;
+}
+
+header h1 {
+    color: #d6a8ff;
+    font-size: 48px;
+    letter-spacing: 3px;
+    text-shadow: 0 0 15px #963cff;
+    margin: 0;
+}
+
+header p {
+    color: #c69bea;
+    font-size: 17px;
+    font-style: italic;
+}
+
+/* CATEGORIAS */
+
+section {
+    margin-bottom: 55px;
+}
+
+section h2 {
+    color: #d6a8ff;
+    font-size: 28px;
+    text-align: center;
+    padding-bottom: 15px;
+    border-bottom: 2px solid #74449a;
+    margin-bottom: 30px;
+}
+
+/* GALERIA */
+
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+/* TARJETAS */
+
+article.pelicula {
+    width: 280px;
+    padding: 15px;
+    background: linear-gradient(145deg, #241333, #100b18);
+    border: 1px solid #74449a;
+    border-radius: 14px;
+    box-shadow: 0 5px 20px rgba(143, 65, 210, 0.25);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+article.pelicula:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 30px rgba(174, 92, 255, 0.45);
+}
+
+/* CARTELES */
+
+img.cartel {
+    display: block;
+    width: 100%;
+    height: 390px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+/* DATOS DE LAS PELICULAS */
+
+.datos {
+    text-align: center;
+}
+
+.datos h3 {
+    background: #38204e;
+    color: #eddbff;
+    padding: 13px 8px;
+    font-size: 19px;
+    border: 1px solid #9860c7;
+    border-radius: 8px;
+    margin: 0 0 10px 0;
+}
+
+.anio {
+    color: #c69bea;
+    font-size: 17px;
+    margin: 8px;
+}
+
+.duracion {
+    color: #d7c4e8;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+/* DESPLEGABLES */
+
+details {
+    margin-top: 10px;
+    background: #1a1024;
+    border: 1px solid #654080;
+    border-radius: 7px;
+    overflow: hidden;
+}
+
+summary {
+    padding: 12px;
+    color: #d9b7f5;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+summary:hover {
+    background: #38204e;
+}
+
+details[open] summary {
+    background: #38204e;
+    border-bottom: 1px solid #654080;
+}
+
+/* SINOPSIS */
+
+.sinopsis {
+    padding: 10px;
+    color: #e5d5f3;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+/* REPARTO */
+
+.reparto {
+    padding: 8px 12px;
+}
+
+.reparto p {
+    color: #e5d5f3;
+    font-size: 14px;
+    border-bottom: 1px solid #49305d;
+    padding-bottom: 7px;
+}
+
+/* PIE DE PAGINA */
+
+footer {
+    text-align: center;
+    color: #b995d4;
+    padding: 25px;
+    margin-top: 40px;
+    border-top: 1px solid #74449a;
+    font-style: italic;
+}
+
+/* ADAPTACION A MOVILES */
+
+@media screen and (max-width: 650px) {
+    body {
+        padding: 12px;
+    }
+
+    header h1 {
+        font-size: 32px;
+    }
+
+    article.pelicula {
+        width: 100%;
+        max-width: 340px;
+    }
+
+    img.cartel {
+        height: 430px;
+    }
+}
